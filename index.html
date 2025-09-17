@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Play</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Lets Play</h1>
+    <p>Stone-Paper-Scissor</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="stone">
+            <img src="images\stone.jpeg" alt=" stone">
+            <h4 style="margin-left: 80px;">stone</h4>
+        </div>
+        <div class="choice" id="paper">
+            <img src="images\paper.jpeg" alt=" paper">
+            <h4 style="margin-left: 80px;">paper</h4>
+        </div>
+        <div class="choice" id="scissor">
+            <img src="images\scissor.jpeg" alt=" scissor">
+            <h4 style="margin-left: 80px;">scissor</h4>
+        </div>
+    </div>
+    
+    <div class="score-board">
+        <div class="score" id="player">
+            <h2>You</h2>
+            <h4 id="userScore">Score:0</h4>
+        </div>
+         <div class="score" id="comp">
+            <h2>Robot</h2>
+            <h4 id="compScore">Score:0</h4>
+        </div>
+    </div>
+     <div class="msg-container">
+        <h2 id="msg">Play your move</h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
